@@ -1,0 +1,25 @@
+
+/*clase Viernes 21 de junio 2024 / */
+header{
+    /*Modificando la imagen*/
+    background-image: url(../img/bg-hero.png);
+    background-position: center; /*centrar*/
+    background-repeat: no-repeat;/*no repetir la imagen*/
+    background-size: cover;/*la imagen se auto ajusta*/
+
+
+    font-family: "Open sans", sans-serif ; /*cuando los referimos a serif tiene tipos de modificaciones en las letras, slab lasterminaciones son cuadradas*/
+    color: white;
+    text-align: right;
+    text-shadow: 0px,3px,6px black;
+}
+
+/*Por jerarquia, moficando la las letras*/
+header h1{
+    font-size: 60px;
+}
+
+header h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
