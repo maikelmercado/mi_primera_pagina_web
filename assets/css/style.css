@@ -1,5 +1,13 @@
 
 /*clase Viernes 21 de junio 2024 / */
+body *{ /*recomendado comenzar en cero*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+
 header{
     /*Modificando la imagen*/
     background-image: url(../img/bg-hero.png);
@@ -22,4 +30,32 @@ header h1{
 header h2{
     font-size: 40px;
     font-weight: lighter;
+}
+
+/* Clase para los elementos de bloque. Se muestran en su propia línea. */
+.block {
+    display: block;
+    width: 100px; /* Ancho del bloque. */
+    height: 50px; /* Altura del bloque. */
+    background-color: lightblue; /* Color de fondo azul claro. */
+    margin-bottom: 10px; /* Espacio debajo de cada bloque. */
+}
+
+/* Clase para los elementos en línea. Se muestran en la misma línea que otros elementos en línea. */
+.inline {
+    display: inline;
+    width: 100px; /* Ancho del elemento en línea. */
+    height: 50px; /* Altura del elemento en línea (no tendrá efecto porque inline no respeta height). */
+    background-color: lightgreen; /* Color de fondo verde claro. */
+    margin-right: 10px; /* Espacio a la derecha de cada elemento en línea. */
+}
+
+/* Clase para los elementos en línea-bloque. 
+Se comportan como elementos en línea pero pueden tener dimensiones definidas. */
+.inline-block {
+    display: inline-block;
+    width: 100px; /* Ancho del inline-block. */
+    height: 50px; /* Altura del inline-block. */
+    background-color: lightcoral; /* Color de fondo coral claro. */
+    margin-right: 10px; /* Espacio a la derecha de cada inline-block. */
 }
